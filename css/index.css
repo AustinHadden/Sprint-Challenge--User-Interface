@@ -76,7 +76,7 @@ header{
     
 }
 header nav{
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,6 +86,8 @@ header nav{
 header nav a{
     color: black;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
 }
 .top-content-img{
     width: 100%;
@@ -254,4 +256,36 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* about.html styling */
+.about p{
+    margin: 20px 0;
+}
+.middle-content-about {
+    display: flex;    
+    padding: 20px;       
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle-content-about h2 {
+    padding: 0 2%;
+    margin: 10px 0;
+}
+.middle-content-about div{
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 20px;
+}
+.middle-content-about p{
+    margin: 10px 0;
+}
+button{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 20px 0;
 }
